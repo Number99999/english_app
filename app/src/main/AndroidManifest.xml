@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appthitracnghiem_001">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image_exam"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/image_exam"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppThiTracNghiem_001">
+        <activity
+            android:name=".user.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".user.SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slide.TestDoneActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slide.ScreenSlidePagerActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

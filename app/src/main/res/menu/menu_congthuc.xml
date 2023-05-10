@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ite_all"
+        android:title="Tất cả"
+        android:icon="@drawable/ic_all"/>
+    <item
+        android:id="@+id/ite_chude1"
+        android:title="Các thì trong tiếng anh"
+        android:icon="@drawable/ic_chude"/>
+    <item
+        android:id="@+id/ite_chude2"
+        android:title="Dấu hiệu nhận biết"
+        android:icon="@drawable/ic_chude"/>
+    <item
+        android:id="@+id/ite_chude3"
+        android:title="Câu điều kiện"
+        android:icon="@drawable/ic_chude"/>
+</menu>
