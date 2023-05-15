@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/b2"
-    tools:context="com.example.appthitracnghiem_001.slide.TestDoneActivity">
+    tools:context="com.example.btl.slide.TestDoneActivity">
 
     <TextView
         android:text="Kết thúc"

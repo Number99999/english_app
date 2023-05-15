@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appthitracnghiem_001">
+    package="com.example.btl">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppThiTracNghiem_001">
         <activity
-            android:name=".user.SignUpActivity"
+            android:name="com.example.btl.user.SignUpActivity"
             android:exported="true" />
         <activity
-            android:name=".user.SignInActivity"
+            android:name="com.example.btl.user.SignInActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.example.btl.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,13 +26,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.btl.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".slide.TestDoneActivity"
+            android:name="com.example.btl.slide.TestDoneActivity"
             android:exported="true" />
         <activity
-            android:name=".slide.ScreenSlidePagerActivity"
+            android:name="com.example.btl.slide.ScreenSlidePagerActivity"
             android:exported="true" />
     </application>
 
