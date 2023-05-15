@@ -16,7 +16,7 @@ import java.io.OutputStream;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private static final String DB_PATH = "/data/data/com.example.appthitracnghiem_001/databases/";
+    private static final String DB_PATH = "/data/data/com.example.btl/databases/";
     private static final String DB_NAME = "dbtracnghiem.sqlite"; //tên file sql
     private static final int DATABASE_VERSION = 1;
 
